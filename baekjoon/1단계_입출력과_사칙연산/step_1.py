@@ -2,6 +2,7 @@
 # Hello World!를 출력하시오.
 
 print("Hello World!")
+print('*' * 100)
 
 
 # 1-2
@@ -9,6 +10,7 @@ print("Hello World!")
 
 army = "강한친구 대한육군"
 print(army + '\n' + army)
+print('*' * 100)
 
 
 # 1-3
@@ -18,3 +20,15 @@ print("\    /\\")
 print(" )  ( ')")
 print("(  /  )")
 print(" \(__)|")
+print('*' * 100)
+
+
+# 1-4
+# 개를 출력한다.
+
+print('|\_/|')
+print('|q p|   /}')
+print('( 0 )"""\\')
+print('|"^"`    |')
+print('||_/=\\\__|')
+print('*' * 100)
