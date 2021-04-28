@@ -32,3 +32,11 @@ print('( 0 )"""\\')
 print('|"^"`    |')
 print('||_/=\\\__|')
 print('*' * 100)
+
+
+# 1-5
+# 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+# 첫째 줄에 A+B를 출력한다.
+
+print(sum(map(int, input().split())))
+print('*' * 100)
