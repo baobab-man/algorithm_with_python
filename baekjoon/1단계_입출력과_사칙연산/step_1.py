@@ -40,3 +40,12 @@ print('*' * 100)
 
 print(sum(map(int, input().split())))
 print('*' * 100)
+
+
+# 1-6
+# 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+# 첫째 줄에 A+B를 출력한다.
+
+a, b = map(int, input().split())
+print(a - b)
+print('*' * 100)
