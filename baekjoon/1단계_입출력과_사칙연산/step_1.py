@@ -49,3 +49,12 @@ print('*' * 100)
 a, b = map(int, input().split())
 print(a - b)
 print('*' * 100)
+
+
+# 1-7
+# 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+# 첫째 줄에 AxB를 출력한다.
+
+a, b = map(int, input().split())
+print(a * b)
+print('*' * 100)
