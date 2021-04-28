@@ -9,3 +9,12 @@ print("Hello World!")
 
 army = "강한친구 대한육군"
 print(army + '\n' + army)
+
+
+# 1-3
+# 고양이를 출력한다.
+
+print("\    /\\")
+print(" )  ( ')")
+print("(  /  )")
+print(" \(__)|")
