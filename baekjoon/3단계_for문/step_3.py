@@ -47,3 +47,12 @@ for i in range(t):
 a = int(input())
 for i in range(a):
     print(i+1)
+
+
+# 3-6
+# 첫째 줄에 100,000보다 작거나 같은 자연수 N이 주어진다.
+# 첫째 줄부터 N번째 줄 까지 차례대로 출력한다.
+
+a = int(input())
+for i in range(a):
+    print(a-i)
