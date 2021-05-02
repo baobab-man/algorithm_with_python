@@ -78,3 +78,12 @@ t = int(input())
 for i in range(t):
     a, b = map(int, input().split())
     print("Case #{}: {} + {} = {}".format(i+1, a, b, a+b))
+
+
+# 3-9
+# 첫째 줄에 N(1 ≤ N ≤ 100)이 주어진다.
+# 첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
+
+n = int(input())
+for i in range(n):
+    print("{}".format((i+1)*'*'))
