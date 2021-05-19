@@ -157,3 +157,19 @@ while True:
         ans = s
 
 print(ans)
+
+# solution 7
+import sys
+from itertools import permutations
+
+num = int(sys.stdin.readline())
+array = list(map(int, sys.stdin.readline().split()))
+
+result = []
+for p in permutations(array, num):
+    tmp = 0
+    for i in range(num-1):
+        tmp += abs(p[i]-p[i+1])
+    result.append(tmp)
+
+print(max(result))
