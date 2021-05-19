@@ -173,3 +173,17 @@ for p in permutations(array, num):
     result.append(tmp)
 
 print(max(result))
+
+# solution 8
+
+from itertools import permutations
+n = int(input())
+cases = permutations(sorted(list(map(int, input().split()))))
+answer = 0
+
+for case in cases:
+    sum = 0
+    for i in range(n-1):
+        sum += abs(case[i]-case[i+1])
+    answer = max(answer, sum)
+print(answer)
